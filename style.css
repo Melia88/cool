@@ -5,16 +5,14 @@
 body {
   display: flex;
   flex-direction: column;
-  min-height: 0;
+  min-height: 100vh;
+  margin: 0;
+}
+main{
   display: flex;
-  flex-direction: column;
+  flex-grow: 1;
 }
 
-.container{
-  max-width: 100%;
-  margin: 0 auto;
-  flex: 1;
-}
 
 header{
   background-color: var(--coolblue);
@@ -23,7 +21,7 @@ header{
   border-style: solid;
   text-align: center;
   font-style: normal;
-  flex-grow: 1;
+ 
   flex-direction: column;
   max-width: 100%;
   min-height: 10vh;
@@ -35,7 +33,7 @@ footer{
   background-color: var(--coolblue);
   border-color: black;
   border-style: solid;
-  flex-grow: 1;
+  
   flex-direction: column;
   margin: 0;
   padding: 0;
@@ -78,4 +76,3 @@ img{
   margin-top: 20vh;
  }
 
- 
